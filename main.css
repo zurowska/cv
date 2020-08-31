@@ -1,0 +1,331 @@
+body {
+	margin: 0;
+	background-color: #2F3336;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+h1.logo {
+	font-size: 44px;
+	font-weight: 700;
+	color: #ddd;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 45px;
+	margin-bottom: 5px;
+}
+
+a.tilelink {
+	color: #ddd;
+	text-decoration: none;
+}
+
+h1 a:hover {
+    color: #d6a615;
+    cursor: pointer;
+}
+
+p.logo {
+    font-size: 28px;
+	font-weight: 700;
+	color: #ddd;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 5px;
+	margin-bottom: 38px;
+}
+
+#topnav {
+	background-color: #d6a615;
+	text-align: center;
+	width: 100%;
+}
+
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+}
+
+.menu > li {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px dashed #0a2b42;
+}
+
+.menu > li:first-child {
+	border-left: 1px dashed #0a2b42;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	color: #2F3336;
+}
+
+.main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	
+}
+
+.west {
+	float: left;
+	width: 775px;
+	padding: 20px;
+	text-align: justify;
+}
+
+.east {
+	float: left;
+	width: 195px;
+	padding: 20px 20px 0px 20px;
+}
+
+h2.west {
+	font-size: 26px;
+	font-weight: 400;
+	color: #ddd;
+	margin-bottom: 10px;
+	padding-top: 60px;
+}
+p.west {
+    font-size: 20px;
+	font-weight: 400;
+	color: #ddd;
+	margin-bottom: 20px;
+	padding: 15px 100px 10px 0px;
+}
+
+.image {
+    width: 320px;
+    height: 338px;
+    align-items: flex-end;
+    padding-right: 20px;
+}
+
+footer {
+    align-self: flex-end;
+    padding: 20px;
+    background-color: #222930;
+    color: #ddd;
+    font-size: 16px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+.pdf a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.pdf a:hover {
+	color: #d6a615;
+}
+
+.experience {
+    font-size: 16px;
+    padding: 40px 40px 70px 40px;
+    text-align: center;
+}
+
+h2.experience {
+    font-size: 18px;
+	font-weight: 600;
+	color: #ddd;
+	text-align: center;
+}
+
+.hobbies {
+    font-size: 16px;
+    padding: 40px 250px 50px 250px;
+    text-align: center;
+}
+
+h2.hobbies {
+    font-size: 15px;
+	font-weight: 400;
+	color: #ddd;
+	text-align: center;
+}
+
+.git {
+    font-size: 17px;
+}
+
+.git a {
+	color: #ddd;
+	text-decoration: none;
+}
+
+.git a:hover {
+	color: #d6a615;
+}
+
+.education {
+    font-size: 17px;
+    padding: 100px 320px;
+    text-align: center;
+} 
+
+.contact {
+    font-size: 16px;
+    padding: 88px;
+    text-align: center;
+}
+
+.skills {
+    font-size: 17px;
+    text-align: justify;
+    padding: 40px 250px 70px 250px;
+}
+
+.skill {
+    font-size: 26px;
+    text-align: center;
+}
+
+
+/*RWD*/
+
+
+@media (min-width: 1100px) {
+
+.container {width: 100%;}
+
+header {width: 100%;}
+
+.logo {width: 100%;}
+
+.main {width: 90%;}
+
+.west {width: 60%; padding: 60px;}
+
+footer {width: 97%}
+
+}
+
+@media (max-width: 1100px) and (min-width: 1000px) {
+
+.container {width: 100%;}
+
+header {width: 100%;}
+
+.logo {width: 100%;}
+
+.main {width: 90%; padding: 40px 40px 60px 40px;}
+
+.education {padding: 100px 20px 100px 20px} 
+.experience {padding: 20px 20px 40px 20px;} 
+.hobbies {padding: 20px 20px 40px 20px;}
+.skills {padding: 20px 20px 40px 20px;}
+.contact {padding: 90px 50px 60px 50px;}
+
+.west {width: 60%; paddnig-left: 20px;}
+h2.west {font-size: 26px;}
+.skill {font-size: 26px;}
+
+footer {width: 95%}
+
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+
+.container {width: 100%;}
+
+header {width: 100%;}
+
+.logo {width: 100%;}
+
+.main {width: 100%}
+
+.education {padding: 100px 20px 100px 20px} 
+.experience {padding: 20px 20px 40px 20px;} 
+.hobbies {padding: 20px 20px 40px 20px;}
+.skills {padding: 20px 20px 40px 20px;}
+.contact {padding: 110px 50px;}
+
+.west {width: 85%; text-align: center; padding: 100px 30px;}
+h2.west {font-size: 22px;}
+.skill {font-size: 22px;}
+
+.east {display: none;}
+
+footer {width: 95%}
+
+}
+
+@media (max-width: 800px) and (min-width: 500px) {
+
+.container {width: 100%;}
+
+header {width: 100%;}
+
+.logo {width: 70%; margin:80px 100px;}
+h1.logo {font-size: 24px;}
+p.logo {font-size: 14px;}
+
+.main {width: 100%}
+
+.education {padding: 100px 20px 100px 20px} 
+.experience {padding: 20px 20px 40px 20px;} 
+.hobbies {padding: 20px 20px 40px 20px;}
+.skills {padding: 20px 20px 40px 20px;}
+.contact {padding: 110px 50px;}
+
+.west {width: 90%; text-align: center; padding: 100px 30px;}
+h2.west {font-size: 22px;}
+.skill {font-size: 22px;}
+
+.east {display: none;}
+
+footer {width: 95%;}
+
+}
+
+@media (max-width: 500px) {
+
+.container {width: 100%;}
+
+header {width: 100%;}
+
+.logo {width: 60%; margin:80px;}
+h1.logo {font-size: 24px;}
+p.logo {font-size: 14px;}
+
+.main {width: 100%}
+
+.education {padding: 100px 20px 100px 20px;} 
+.experience {padding: 20px 20px 40px 20px;} 
+.hobbies {padding: 20px 20px 40px 20px;}
+.skills {padding: 20px 20px 40px 20px;}
+.contact {padding: 110px 50px;}
+
+.west {width: 85%; text-align: center; padding: 100px 30px;}
+h2.west {font-size: 22px;}
+.skill {font-size: 22px;}
+
+.east {display: none;}
+
+footer {width: 88%;}
+
+}
+
