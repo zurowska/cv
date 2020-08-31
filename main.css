@@ -123,6 +123,7 @@ p.west {
 
 footer {
     align-self: flex-end;
+    margin: 0 auto;
     padding: 20px;
     background-color: #222930;
     color: #ddd;
